@@ -24,7 +24,7 @@ echo
 pip3 install instaloader
 
 
-/home/user/.local/bin/instaloader -l robert.stack.50951 -p tL382xZoPoj8sB --no-metadata-json -C -F --dirname-pattern=/home/user/insta/files/{profile}  profile juli>
+/home/user/.local/bin/instaloader -l robert.stack.50951 -p tL382xZoPoj8sB --no-metadata-json -C -F --dirname-pattern=/media/zebra/files/{profile}  profile juli>
 
 
 echo '==============================================================================================='
