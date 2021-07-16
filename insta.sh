@@ -4,7 +4,8 @@ PATH=/home/user/.local/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:
 
 iuser=janellemorales79
 ipass=Friday01
-
+iprofile="julies_lashes"
+idir=/media/zebra/files/
 
 echo '==============================================================================================='
 figlet -f digital Started $(date)
@@ -20,7 +21,7 @@ echo
 pip3 install instaloader
 
 
-/home/user/.local/bin/instaloader -l $iuser -p $ipass --no-metadata-json -C -F --dirname-pattern=/media/zebra/files/{profile}  profile julies_lashes
+/home/user/.local/bin/instaloader -l $iuser -p $ipass --no-metadata-json -C -F --dirname-pattern=$idir{profile}  profile $iprofile
 
 
 echo '==============================================================================================='
