@@ -11,16 +11,8 @@ figlet -f digital Started $(date)
 echo '==============================================================================================='
 echo 
 
-## mm/dd/yyyy and time###
-## Time in 12 hr format ###
 
-## now=$(date +'%m/%d/%Y @ %r')
-
-## Log message to syslog
-
-## echo   "Instragram script run @ {$now}" 
-
-echo "Step 8: Installing / Updating Instaloader"
+echo "Installing / Updating Instaloader"
 pip3 install instaloader
 pip3 install --upgrade instaloader
 
