@@ -2,6 +2,10 @@
 
 PATH=/home/user/.local/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 
+iuser=janellemorales79
+ipass=Friday01
+
+
 echo '==============================================================================================='
 figlet -f digital Started $(date)
 echo '==============================================================================================='
@@ -24,7 +28,7 @@ echo
 pip3 install instaloader
 
 
-/home/user/.local/bin/instaloader -l robert.stack.50951 -p tL382xZoPoj8sB --no-metadata-json -C -F --dirname-pattern=/media/zebra/files/{profile}  profile julies_lashes
+/home/user/.local/bin/instaloader -l $iuser -p $ipass --no-metadata-json -C -F --dirname-pattern=/media/zebra/files/{profile}  profile julies_lashes
 
 
 echo '==============================================================================================='
