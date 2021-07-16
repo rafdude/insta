@@ -14,14 +14,14 @@ echo
 
 
 echo "Installing / Updating Instaloader"
-pip3 install instaloader
-pip3 install --upgrade instaloader
+## pip3 install instaloader
+## pip3 install --upgrade instaloader
 
 echo
 pip3 install instaloader
 
 
-/home/user/.local/bin/instaloader -l $iuser -p $ipass --no-metadata-json -C -F --dirname-pattern=$idir{profile}  profile $iprofile
+echo /home/user/.local/bin/instaloader -l $iuser -p $ipass --no-metadata-json -C -F --dirname-pattern=$idir{profile}  profile $iprofile
 
 
 echo '==============================================================================================='
